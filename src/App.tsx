@@ -352,7 +352,10 @@ function App() {
                 <span>27</span>
                 <span style={{ fontSize: '1rem', marginTop: '14px', color: 'var(--text-secondary)' }}>,90</span>
               </div>
-              <p style={{ fontSize: '0.875rem', color: 'var(--primary-color)', fontWeight: '600', marginTop: '8px' }}>
+              <p style={{ fontSize: '0.875rem', color: 'var(--primary-color)', fontWeight: '600', marginTop: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px' }}>
+                <Zap size={14} /> ENVIO IMEDIATO
+              </p>
+              <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', marginTop: '4px' }}>
                 Pagamento único. Sem mensalidades.
               </p>
             </div>
